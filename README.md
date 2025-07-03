@@ -44,6 +44,10 @@ The system currently does not include authentication and is intended for interna
 
 ```
 
+<img width="1056" alt="Ekran Resmi 2025-07-04 ÖÖ 12 58 14" src="https://github.com/user-attachments/assets/e78257b0-5db4-4748-8686-464db224094c" />
+
+
+
 ## 🚨 Error Handling
 Errors are returned in a structured ExceptionResponse.
 
