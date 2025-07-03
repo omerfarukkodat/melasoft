@@ -32,7 +32,6 @@ public class InvoiceController {
                     @ApiResponse(responseCode = "200", description = "faktura saved successfully",
                             content = @Content(schema = @Schema(implementation = Map.class))),
                     @ApiResponse(responseCode = "400", description = "invalid xml or format error for base64"),
-                    @ApiResponse(responseCode = "500", description = "server error")
             })
     public ResponseEntity<Map<String, String>> add(@RequestBody InvoiceRequest request) {
         invoiceService.handleInvoice(request.baseXml());

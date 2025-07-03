@@ -93,6 +93,26 @@ http://localhost:8088/api/v1/swagger-ui.html
 http://localhost:8088/api/v1/swagger-ui/index.html
    ```
 
+## ✅ Testing
+This project includes unit tests to ensure the correctness of the core business logic.
+
+The InvoiceServiceImplTest class contains unit tests for invoice processing.
+
+Mocking is used for dependencies such as InvoiceRepository.
+
+Edge cases such as valid XML, invalid XML input and invalid Base64 encoded are tested.
+
+Running Tests
+You can run all tests using:
+
+  ```bash
+mvn test
+   ```
+
+Example test class:
+
+src/test/java/com/kodat/of/melasoft/service/impl/InvoiceServiceImplTest.java
+
 
 ## Contact
 
